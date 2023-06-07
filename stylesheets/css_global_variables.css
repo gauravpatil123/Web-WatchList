@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("../assets/fonts/Gotham/Gotham-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("../assets/fonts/Gotham/Gotham-Light.otf") format("opentype");
+}
+
+@font-face {
+font-family: "Gotham Thin";
+src: url("../assets/fonts/Gotham/Gotham-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Playfair Display Regular";
+    src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "League Gothic";
+    src: url("../assets/fonts/League_Gothic/LeagueGothic-Regular.ttf") format("truetype");
+}
+
+:root{
+
+    /* font family */
+    --font-heading: "Gotham Bold";
+    --font-title: "Gotham Light";
+    --font-form-items: "Gotham Light";
+    --font-input: "Playfair Display Regular";
+    --font-text: "Playfair Display Regular";
+    --font-nav: "League Gothic";
+    --font-copyright: "Helvetica", sans-serif;
+
+    /* font sizes */
+    --nav-menu-button-font-size: 2em;
+    --font-size-copyright: x-small;
+
+    --page-section-title: 2em;
+
+    /* margins */
+    --nav-menu-button-margin-left: 1em;
+    --nav-menu-button-margin-right: 1em;
+    --nav-menu-button-padding: 0.5em;
+
+    --button-border-radius: 1em;
+
+    --box-shadow-spread: 10px;
+
+    /* logo links */
+    --logo-full: url("../assets/logos/WatchList-Logo-v-0.1-full.svg");
+    --logo-ini: url("../assets/logos/WatchList-Logo-v-0.1-ini.svg");
+    --logo-full-white: url("../assets/logos/WatchList-Logo-v-0.1-full-w.svg");
+    --logo-ini-white: url("../assets/logos/WatchList-Logo-v-0.1-ini-w.svg");
+
+    /* colors */
+    --error-message: #C0392B;
+
+    --box-border: #222222;
+    --box-shadow-color-1: #666666;
+
+    --form-button-background-unclicked: #222222;
+    --form-button-background-clicked: #C7DBE7;
+    --form-button-text-uncliked: #EEEEEE;
+    --form-button-text-clicked: #222222;
+    --form-button-border-unclicked: #222222;
+    --form-button-border-clicked: #222222;
+
+    --hover-link-color-1: #2980B9;
+
+    --choice-background: #C7DBE7;
+    --choice-text: #222222;
+
+    --votes-rank-1: #F9E79F;
+    --votes-rank-2: #E5E7E9;
+    --votes-rank-3: #EDBB99;
+    --votes-rank-rest: #C7DBE7;
+
+    --nav-menu-background: #222222;
+    --footer-background: #222222;
+
+    --nav-menu-button-uncliked: #EEEEEE;
+    --nav-menu-button-clicked: #C7DBE7;
+
+    --font-copy-color: #EEEEEE;
+
+    --body-background: #EEEEEE;
+
+    /* other color samples */
+    --color-sample-1: #A1AD90;
+    --color-sample-2: #DCD3CC;
+    --color-sample-3: #F0EBE7;
+    --color-sample-4: #C7DBE7;
+
+    --color-grey-1: #EEEEEE;
+    --color-grey-2: #CCCCCC;
+    --color-grey-3: #999999;
+    --color-grey-4: #666666;
+    --color-grey-5: #333333;
+
+    --color-grey-6: #111111;
+    --color-grey-7: #222222;
+}

@@ -1,0 +1,187 @@
+@import "./navigation_menu.css";
+@import "./footer.css";
+
+#nav-home {
+    color: var(--nav-menu-button-clicked);
+}
+
+.add-content-container {
+    border: 0.1em solid var(--box-border);
+    border-radius: 1em;
+    width: 96vw;
+    height: fit-content;
+    margin-inline: auto;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
+}
+
+.form-title {
+    text-align: center;
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: var(--page-section-title);
+    font-family: var(--font-title);
+}
+
+.content-error-message {
+    font-size: 0.5em;
+    margin-top: 0.1em;
+    color: var(--error-message);
+}
+
+.content-form-container {
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.content-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-form-items{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 3em;
+    font-size: 1em;
+    margin-inline: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    align-items: center;
+    font-family: var(--font-form-items);
+}
+
+.content-form-sub-items {
+    align-self: center;
+    padding: 0.5em;
+    font-family: var(--font-form-items);
+}
+
+#content-name-field {
+    border: 0.1em solid black;
+    align-self: center;
+    width: 20vw;
+    font-family: var(--font-input);
+    font-size: 1em;
+}
+
+#content-type-field, #content-interest-field {
+    font-size: 16pt;
+}
+
+.genre-checkbox-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#content-submit {
+    width: 6vw;
+    height: 5vh;
+    font-size: 1em;
+    border: 0.1em solid var(--form-button-border-unclicked);
+    border-radius: var(--button-border-radius);
+    font-family: var(--font-form-items);
+    background-color: var(--form-button-background-unclicked);
+    color: var(--form-button-text-uncliked);
+    transition: background-color 0.5s ease;
+}
+
+#content-submit:hover {
+    background-color: var(--form-button-background-clicked);
+    color: var(--form-button-text-clicked);
+    border-color: var(--form-button-border-clicked);
+}
+
+.watchlist-container {
+    border: 0.1em solid var(--box-border);
+    border-radius: 1em;
+    width: 94vw;
+    height: fit-content;
+    margin-inline: auto;
+    padding: 1em;
+    box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
+}
+
+.watchlist-title {
+    text-align: center;
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 0.05em;
+    margin-bottom: 0.05em;
+    font-size: var(--page-section-title);
+    font-family: var(--font-title);
+}
+
+.watchlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.watchlist-content {
+    border: 0.01em solid var(--box-border);
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.watchlist-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-block: 1em;
+}
+
+.item-content {
+    margin-inline: 0.5em;
+    width: 30vw;
+    text-align: center;
+    margin-block: auto;
+    font-family: var(--font-text);
+}
+
+.item-form {
+    display: flex;
+    flex-direction: row;
+}
+
+#item-submit {
+    width: 6vw;
+    height: 4vh;
+    font-size: 1em;
+    border: 0.1em solid var(--form-button-border-unclicked);
+    border-radius: var(--button-border-radius);
+    font-family: var(--font-form-items);
+    background-color: var(--form-button-background-unclicked);
+    color: var(--form-button-text-uncliked);
+    transition: background-color 0.5s ease;
+}
+
+#item-submit:hover {
+    background-color: var(--form-button-background-clicked);
+    color: var(--form-button-text-clicked);
+    border-color: var(--form-button-border-clicked);
+}
+
+.hidden{
+    display: none;
+}
+
+.watchlist-item-metadata{
+    display: block;
+    margin-block: 1em;
+}
+
+.expand-button {
+    width: 3vw;
+    height: 2vw;
+    transform: rotate(180deg);
+}
+
+.minimize-button {
+    width: 3vw;
+    height: 2vw;
+    transform: rotate(360deg);
+}

@@ -1,0 +1,33 @@
+@import "./css_global_variables.css";
+
+.footer-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    font-size: var(--nav-menu-button-font-size);
+    background-color: var(--footer-background);
+    margin-top: 1em;
+    margin-bottom: 0px;
+    border: 0.01em solid var(--box-border);
+    padding-block: 0.5em;
+    height: 60px;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 60px;
+    margin-inline: 1em;
+    margin-block: auto;
+    background-image: var(--logo-ini-white);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#copyright{
+    position: absolute;
+    font-size: var(--font-size-copyright);
+    font-family: var(--font-copyright);
+    right: 3%;
+    top: 73%;
+    color: var(--font-copy-color);
+}
