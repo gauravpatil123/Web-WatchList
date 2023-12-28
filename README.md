@@ -82,8 +82,8 @@ Contains all the logos used in the website
 
 **Website Features**</br>
   1. User have to create personal account on the website for their personal Watch*List* on the ```signup.php``` page.
-  2. User can add new titles to their watch list which include titlename, genres, content type & the user's interest in the title.
-  3. User can view the Wacth*List* with all its content details and interact with its contents to change the status.
-  4. User can get random recommendations based on their Watch*List* or run a poll amoungst the titles of their watchlist.
-  5. Users can view the watched titles on their account page and interact with the content items to change their status.
-  6. Users can view the removed titles on their acouunt page and interact with the content items to change their status.
+  2. User can add new titles to their watch list which include titlename, genres, content type & the user's interest in the title on the ```homepage.php``` page.
+  3. User can view the Wacth*List* with all its content details and interact with its contents to change the status on ```watchlist.php``` page.
+  4. User can get random recommendations based on their Watch*List* or run a poll amoungst the titles of their watchlist on the ```recommend.php``` page.
+  5. Users can view the watched titles on their account page and interact with the content items to change their status on the ```account.php``` page.
+  6. Users can view the removed titles on their acouunt page and interact with the content items to change their status on the ```account.php``` page.
