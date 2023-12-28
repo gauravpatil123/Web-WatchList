@@ -81,7 +81,7 @@ Contains all icons used in the website
 Contains all the logos used in the website
 
 **Website Features**</br>
-  1. User have to create personal account on the website for their personal Watch*List*.
+  1. User have to create personal account on the website for their personal Watch*List* on the ```signup.php``` page.
   2. User can add new titles to their watch list which include titlename, genres, content type & the user's interest in the title.
   3. User can view the Wacth*List* with all its content details and interact with its contents to change the status.
   4. User can get random recommendations based on their Watch*List* or run a poll amoungst the titles of their watchlist.
